@@ -1,5 +1,6 @@
-.c-container {
-  justify-content: space-between;
+section > .c-container {
+  justify-content: space-between !important;
+  gap: 12.5rem;
 }
 
 .c-container > div {
