@@ -70,3 +70,13 @@
 .r-buttons button:hover {
   scale: 1.225;
 }
+
+@media (max-width: 640px) {
+  .r-head {
+    align-items: center !important;
+  }
+
+  .r-buttons {
+    position: initial;
+  }
+}
