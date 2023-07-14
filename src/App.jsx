@@ -6,6 +6,7 @@ import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/value/Value";
 import Contacts from "./components/Contacts/Contacts";
 import GetStarted from "./components/GetStarted/GetStarted";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Value />
       <Contacts />
       <GetStarted />
+      <Footer />
     </div>
   );
 }
